@@ -12,6 +12,7 @@ func main() {
 	conver()
 	dat()
 	hi()
+	io()
 
 }
 
@@ -118,3 +119,21 @@ func hi(){
 
 	fmt.Println(day ,month , sun , n, b, c)
 }
+
+
+
+// iota
+
+func io(){
+
+	
+	const(
+		b= iota+1
+		c=iota 
+		d=iota 
+		k=iota
+	)
+	h:=b
+	fmt.Println(b,c,d,k,h)
+}
+
