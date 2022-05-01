@@ -11,6 +11,7 @@ func main() {
 	Vark("how are you" , "are you go ing")
 	conver()
 	dat()
+	hi()
 
 }
 
@@ -85,6 +86,7 @@ func dat(){
 		c=25.5
 		d=58.9
 		
+		
 	)
 
 	u := float64(c)
@@ -92,7 +94,27 @@ func dat(){
 	y := int(c)
 	k:= int(d)
 	p :=float32(d)
+	
 
 
 	fmt.Println(u,v,y,k,p)
+}
+
+
+//praction constant
+
+func hi(){
+	const day int= 4
+	var day1 int= 4
+	const(
+		month=5
+		sun=7
+	)
+
+	const n ,b,c =1,2,3
+	
+	//  day = day +1
+	day1 = day1+1
+
+	fmt.Println(day ,month , sun , n, b, c)
 }
