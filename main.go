@@ -10,6 +10,7 @@ func main() {
 	say(data.Hide)
 	Vark("how are you" , "are you go ing")
 	conver()
+	dat()
 
 }
 
@@ -71,4 +72,27 @@ func conver(){
 	fmt.Println(haz)
 	fmt.Println(hor, hoz , hog)
 
+}
+
+
+// type aliaing
+
+type int float64
+//type int float32
+
+func dat(){
+	var(
+		c=25.5
+		d=58.9
+		
+	)
+
+	u := float64(c)
+	v := float64(d)
+	y := int(c)
+	k:= int(d)
+	p :=float32(d)
+
+
+	fmt.Println(u,v,y,k,p)
 }
