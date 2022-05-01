@@ -9,6 +9,8 @@ func main() {
 	fmt.Println("are you redy")
 	say(data.Hide)
 	Vark("how are you" , "are you go ing")
+	conver()
+
 }
 
 func say(name string) {
@@ -46,5 +48,27 @@ func Vark(Name string , sod string) {
 	fmt.Println("frank: ",frank ,Name)
 
 
+
+}
+
+// tipe conversion
+
+func conver(){
+	var(
+		son =50
+		day=66.9
+		month=2
+	)
+
+	hos:=int(son)*int(month)*int(day)
+	had := int(son)+int(month)+int(day)
+	haz := float64(son)+float64(month)+float64(day)
+	hor := float32(day)
+	hoz := float64(day)
+	hog := int(day)
+	fmt.Println(hos)
+	fmt.Println(had)
+	fmt.Println(haz)
+	fmt.Println(hor, hoz , hog)
 
 }
