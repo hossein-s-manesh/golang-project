@@ -19,6 +19,7 @@ func main() {
 	map2() // data structures >> map2
 	Array1()// data structures >> Array and slice >> Array
 	slice1()//data structures >> Array and slice >> Slice
+	struct1()//data structures >> Array and slice >> struct
 
 }
 
@@ -333,3 +334,23 @@ func slice1(){
 
 }
 
+
+//struct
+
+type person struct{
+	name string
+	last_name string
+	age int
+}
+
+func struct1()  {
+	p:=person{age: 14,name: "hose",last_name: "dlsjf"}
+	p.age=30
+	p.last_name="soltan"
+	p.name="hossein"
+	fmt.Println(p)
+
+
+
+	
+}
