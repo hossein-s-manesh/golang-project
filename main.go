@@ -14,6 +14,7 @@ func main() {
 	hi()
 	io()
 	num() // numeric expressions
+	main1() // pointers
 
 }
 
@@ -153,4 +154,28 @@ func num(){
 	fmt.Println("p >" ,p)
 	fmt.Println("c >" ,e)
 	fmt.Println("n >", n)
+	fmt.Println("n >", n)
+	
+}
+
+
+
+
+//pointers
+
+func main1() {
+	i:=34
+	var p =&i
+	e:=*p
+	
+	var y =&i	
+	fmt.Println("p=  >", p)
+	fmt.Println("e=  >", e)
+	fmt.Println("i=  >", i)
+	fmt.Println("y=  >",y)
+	fmt.Println("y=  >",*y)
+
+
+
+
 }
