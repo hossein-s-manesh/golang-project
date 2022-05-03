@@ -13,6 +13,7 @@ func main() {
 	dat()
 	hi()
 	io()
+	num() // numeric expressions
 
 }
 
@@ -137,3 +138,19 @@ func io(){
 	fmt.Println(b,c,d,k,h)
 }
 
+
+
+// umeric expressions
+func num(){
+	const(
+		c=19.0
+		a=19
+		b=18
+	)
+	e:= c/2
+	p:= a/2
+	n:=a+c
+	fmt.Println("p >" ,p)
+	fmt.Println("c >" ,e)
+	fmt.Println("n >", n)
+}
