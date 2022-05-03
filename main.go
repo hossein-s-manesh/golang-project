@@ -17,6 +17,8 @@ func main() {
 	main1() // pointers
 	map1() // data structures >> map
 	map2() // data structures >> map2
+	Array1()// data structures >> Array and slice >> Array
+	
 
 }
 
@@ -230,9 +232,29 @@ func map2(){
 	fmt.Println("b3=  >",c)
 	fmt.Println("ok  >",ok)
 
-	
+
+}
+
+
+
+
+//lern slice and Array
+//Array
+
+func Array1(){
+
+	var b [3]int
+	b[2]=3
+	d:=b[2]
+	j:= [10]int{1,2,23,3,4,4,5}
+	o:=len(j)
+	fmt.Println("b=  >",b)
+	fmt.Println("d=  >",d)
+	fmt.Println("j= >>",j)
+	fmt.Println("o= >>",o)
 
 	
+
 
 
 
