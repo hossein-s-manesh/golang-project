@@ -18,7 +18,7 @@ func main() {
 	map1() // data structures >> map
 	map2() // data structures >> map2
 	Array1()// data structures >> Array and slice >> Array
-	
+	slice1()//data structures >> Array and slice >> Slice
 
 }
 
@@ -246,7 +246,7 @@ func Array1(){
 	var b [3]int
 	b[2]=3
 	d:=b[2]
-	j:= [10]int{1,2,23,3,4,4,5}
+	j:= [10]int{1,2,23,3,4,4,5,}
 	o:=len(j)
 	fmt.Println("b=  >",b)
 	fmt.Println("d=  >",d)
@@ -259,6 +259,29 @@ func Array1(){
 
 
 
+
+
+}
+
+func slice1(){
+	e:=make([]int,3)
+	e[0]=23
+	e[2]=34
+	e[1]=43
+	n:=[]int{1,2,3,4,5,5,6,3,3,3,3,3}
+	n[2]=4
+	h:=n[2]
+	k:=len(e)
+	l:=len(n)
+	i:=n[:]
+	q:=append(n[0:5],n[5+1:]...)
+
+	fmt.Println("e=  >",e)
+	fmt.Println("n=  >",n)
+	fmt.Println("n=  >",n)
+	fmt.Println("h=  >",h)
+	fmt.Println("k,l=  >",k,l)
+	fmt.Println("i,q=  >",i,q)
 
 
 }
