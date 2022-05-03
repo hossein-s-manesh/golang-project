@@ -193,7 +193,11 @@ func main1() {
 //data structures Map
 func map1(){
 	var m map[string]int
-	m=map[string]int{"h1":34,"h2":34,"h3":24}
+	m=map[string]int{
+		"h1":34,
+		"h2":34,
+		"h3":24,
+	}
 	m["k1"]=3
 	m["g2"]=323
 	n:=	m["g2"]
