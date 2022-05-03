@@ -15,6 +15,8 @@ func main() {
 	io()
 	num() // numeric expressions
 	main1() // pointers
+	map1() // data structures >> map
+	map2() // data structures >> map2
 
 }
 
@@ -174,6 +176,61 @@ func main1() {
 	fmt.Println("i=  >", i)
 	fmt.Println("y=  >",y)
 	fmt.Println("y=  >",*y)
+
+
+
+	n:=433
+	m:=&n
+	fmt.Println("m=  >", m)
+	fmt.Println("*M=  >",*m)
+
+
+
+
+}
+
+
+//data structures Map
+func map1(){
+	var m map[string]int
+	m=map[string]int{"h1":34,"h2":34,"h3":24}
+	m["k1"]=3
+	m["g2"]=323
+	n:=	m["g2"]
+	m["d8"]=34
+//	delete(m , "g2")
+//	k2,ok:=m["g2"]
+	_,ok:=m["k3"]
+	fmt.Println("m  >", m)
+	fmt.Println("m  >", len(m))
+	fmt.Println("g2  >",n )
+//	fmt.Println("k1,ok  >",ok,k2)
+	fmt.Println("k1,ok  >",ok)
+
+	
+
+
+
+
+		
+}
+func map2(){
+	m:=make(map[string]string)
+	m["b1"]="hossein"
+	m["b2"]="ali"
+	m["b3"]="nikoo"
+	c:=	m["b3"]
+	delete(m,"b1")
+	_,ok:=m["b1"]
+	fmt.Println("map=  >",m)
+	fmt.Println("b3=  >",c)
+	fmt.Println("ok  >",ok)
+
+	
+
+	
+
+
 
 
 
