@@ -275,6 +275,13 @@ func slice1(){
 	l:=len(n)
 	i:=n[:]
 	q:=append(n[0:5],n[5+1:]...)
+	u:=cap(n)
+	m:=len(n)
+	v:=cap(e)
+	x:=len(e)
+	n=append(n,400)
+	n=append(n, 400,300)
+
 
 	fmt.Println("e=  >",e)
 	fmt.Println("n=  >",n)
@@ -282,6 +289,8 @@ func slice1(){
 	fmt.Println("h=  >",h)
 	fmt.Println("k,l=  >",k,l)
 	fmt.Println("i,q=  >",i,q)
+	fmt.Println("u,m=  >",u,m)
+	fmt.Println("v,x=  >",v,x)
 
 
 }
