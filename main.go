@@ -263,6 +263,10 @@ func Array1(){
 
 }
 
+
+
+//Slice
+
 func slice1(){
 	e:=make([]int,3)
 	e[0]=23
@@ -282,6 +286,40 @@ func slice1(){
 	n=append(n,400)
 	n=append(n, 400,300)
 
+	for key,value :=range n{
+		fmt.Println(key,value)
+	}
+
+
+	for key,value :=range n{
+		fmt.Println(key,value)
+	}
+
+	fmt.Print("===================================")
+
+	for i:=0 ;i<len(n);i++{
+		fmt.Println(i,n[i])
+	}
+
+	for i:=0;i<len(n);i++{
+		fmt.Println(i,n[i])
+	}
+
+	fmt.Print("===================================")
+
+	for key,value := range n{
+		fmt.Println(key,value)
+	}
+
+	fmt.Print("===================================")
+
+		for i:=0 ;i<len(n);i++{
+			fmt.Println(i,n[i])
+		}
+
+		fmt.Print("===================================")
+
+
 
 	fmt.Println("e=  >",e)
 	fmt.Println("n=  >",n)
@@ -294,3 +332,4 @@ func slice1(){
 
 
 }
+
