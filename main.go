@@ -20,6 +20,7 @@ func main() {
 	Array1()// data structures >> Array and slice >> Array
 	slice1()//data structures >> Array and slice >> Slice
 	struct1()//data structures >> Array and slice >> struct
+	man()//loop for rage
 
 }
 
@@ -353,4 +354,30 @@ func struct1()  {
 
 
 	
+}
+
+func man(){
+	n:=[]int{1,2,2,3,3,4,45,5,6,7,88,}
+
+
+	for key,value :=range n{
+		fmt.Println(key,value)
+	}
+
+
+	for i:=0 ; i<len(n);i++{
+		fmt.Println(i,n[i])
+	}
+
+
+	for i:=0;i<len(n);i++{
+		fmt.Println(i,n[i])
+	}
+
+
+	for i:=0 ; i<len(n) ; i++{
+		fmt.Println(i,n[i])
+	}
+
+
 }
