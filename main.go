@@ -22,6 +22,7 @@ func main() {
 	struct1()//data structures >> Array and slice >> struct
 	man()//loop for rage
 	ifo()//for and els
+	stat(3)//switch statcment
 
 }
 
@@ -427,4 +428,51 @@ func ifo(){
 	
 
 	
+}
+
+
+//switch statcment
+
+func stat(day int){
+	switch day{
+	case 1:fmt.Println("sunday")
+	case 2:fmt.Println("monday")
+	case 3:fmt.Println("Tuesday")
+	case 4:fmt.Println("Wednesday")
+	case 5:fmt.Println("Thursday")
+	case 6:fmt.Println("Friday")
+	default:fmt.Println("not day")
+
+	}
+
+
+
+	
+	switch day{
+	case 1:
+		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
+	case 3:
+		fmt.Println("three")
+	default:
+		fmt.Println("not int")
+	}
+
+
+
+	y:=12
+	u:=9
+	b:=y&u
+	switch b{
+	case 0:
+		fmt.Println("Playable")
+	case 1,2,3,4,5,6,7,8,9:
+		fmt.Println("not Playable")
+	}
+	
+
+
+
+
 }
