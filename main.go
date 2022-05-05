@@ -474,5 +474,4 @@ func stat(day int){
 
 
 
-
 }
