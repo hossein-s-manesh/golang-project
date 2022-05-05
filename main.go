@@ -21,6 +21,7 @@ func main() {
 	slice1()//data structures >> Array and slice >> Slice
 	struct1()//data structures >> Array and slice >> struct
 	man()//loop for rage
+	ifo()//for and els
 
 }
 
@@ -380,4 +381,50 @@ func man(){
 	}
 
 
+}
+
+func ifo(){
+	n:=45
+	s:=2
+	if
+	 n<s || s!=n{
+		fmt.Print("hello")
+	}else
+	 {fmt.Println("good morinig")
+	}
+
+
+	s=32
+	m:=1
+	if m!=s || m==m{
+		fmt.Println("\niam ali")
+	}else if s==2{
+		fmt.Println("are you happy")
+	}
+
+	m=5
+	if s%m==0{
+		fmt.Println("ok")
+	}else if s%m==1{
+		fmt.Println("no1")
+	}else if s%m==2{
+		fmt.Println("no2")
+	}else if s%m==3{
+		fmt.Println("no3")
+	}else if s%m==4{
+		fmt.Println("no4")
+	}else if s%m==5{
+		fmt.Println("no5")
+	}else if s%m==6{
+		fmt.Println("no6")
+	}else if s%m==7{
+		fmt.Println("no7")
+	}else if s%m==8{
+		fmt.Println("no8")
+	}else if s%m==9{
+		fmt.Println("no9")
+	}
+	
+
+	
 }
