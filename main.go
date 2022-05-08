@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"myapp/data"
+	"myapp/orented"
 )
 
 func main() {
@@ -23,6 +24,7 @@ func main() {
 	man()//loop for rage
 	ifo()//for and els
 	stat(3)//switch statcment
+	orented.Ory()
 
 }
 
@@ -470,8 +472,13 @@ func stat(day int){
 	case 1,2,3,4,5,6,7,8,9:
 		fmt.Println("not Playable")
 	}
-	
+
 
 
 
 }
+
+
+//object orented
+
+
